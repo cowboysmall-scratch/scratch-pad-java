@@ -1,0 +1,15 @@
+target
+
+.gradle
+build
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+**/*.log
+**/*.zip
+**/*.versionsBackup
+
+.DS_STORE
