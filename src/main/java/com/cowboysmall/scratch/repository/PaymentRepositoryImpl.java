@@ -19,7 +19,7 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     private final Lock lock = new ReentrantLock();
 
-    private ConcurrentMap<String, ConcurrentMap<String, ConcurrentMap<String, Payments>>> dataStore = new ConcurrentHashMap<>();
+    private final ConcurrentMap<String, ConcurrentMap<String, ConcurrentMap<String, Payments>>> dataStore = new ConcurrentHashMap<>();
 
 
     //_________________________________________________________________________
