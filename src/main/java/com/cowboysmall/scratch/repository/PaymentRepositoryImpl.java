@@ -19,7 +19,7 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     private final Lock lock = new ReentrantLock();
 
-    private final ConcurrentMap<String, ConcurrentMap<String, ConcurrentMap<String, Payments>>> dataStore = new ConcurrentHashMap<>();
+    private final ConcurrentMap<String, Payments> dataStore = new ConcurrentHashMap<>();
 
 
     //_________________________________________________________________________
@@ -34,10 +34,17 @@ public class PaymentRepositoryImpl implements PaymentRepository {
         lock.lock();
         try {
 
-            Payments payments = getPayments(date, currency, creditor);
+            Payments payments = getPayments(format("%s-%s-%s", creditor, date, currency));
 
             if (payments.getTotal().add(payment.getAmount()).compareTo(DAILY_LIMIT) > 0)
-                throw new PaymentRepositoryException(format("Daily Payments Total Exceeded For %s In %s.", creditor, currency));
+                throw new PaymentRepositoryException(
+                        format(
+                                "Daily Payments Total Exceeded For %s On %s In %s.",
+                                creditor,
+                                date,
+                                currency
+                        )
+                );
 
             payments.add(payment);
 
@@ -50,17 +57,11 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     //_________________________________________________________________________
 
-    private Payments getPayments(String date, String currency, String creditor) {
+    private Payments getPayments(String key) {
 
-        if (!dataStore.containsKey(creditor))
-            dataStore.put(creditor, new ConcurrentHashMap<>());
+        if (!dataStore.containsKey(key))
+            dataStore.put(key, new Payments());
 
-        if (!dataStore.get(creditor).containsKey(date))
-            dataStore.get(creditor).put(date, new ConcurrentHashMap<>());
-
-        if (!dataStore.get(creditor).get(date).containsKey(currency))
-            dataStore.get(creditor).get(date).put(currency, new Payments());
-
-        return dataStore.get(creditor).get(date).get(currency);
+        return dataStore.get(key);
     }
 }
