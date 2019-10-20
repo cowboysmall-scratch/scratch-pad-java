@@ -27,9 +27,9 @@ public class PaymentRepositoryImpl implements PaymentRepository {
     @Override
     public void persist(Payment payment) {
 
+        String creditor = payment.getCreditor();
         String date = FORMAT.format(payment.getSettlementDate());
         String currency = payment.getCurrency().getCurrencyCode();
-        String creditor = payment.getCreditor();
 
         lock.lock();
         try {
