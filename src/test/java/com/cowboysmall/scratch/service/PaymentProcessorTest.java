@@ -20,6 +20,9 @@ import static org.hamcrest.Matchers.lessThanOrEqualTo;
 
 public class PaymentProcessorTest {
 
+    private static final String[] NAMES = new String[]{"NAME_1", "NAME_2", "NAME_3", "NAME_4", "NAME_5"};
+    private static final String[] CURRENCIES = new String[]{"EUR", "USD", "GBP"};
+
     @Test
     public void testPaymentProcessor_MaximumThreeConcurrentPayments() throws Exception {
 
@@ -27,19 +30,24 @@ public class PaymentProcessorTest {
         PaymentProcessor paymentProcessor = new PaymentProcessorImpl(paymentRepository);
 
         List<Callable<Void>> callables = new ArrayList<>();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 20; i++) {
+
+            String name = NAMES[i % 5];
+            String currency = CURRENCIES[i % 3];
+
             callables.add(() -> {
                 paymentProcessor.process(
                         new Payment(
+                                name,
                                 "",
-                                "",
-                                BigDecimal.ZERO,
-                                Currency.getInstance("EUR"),
+                                BigDecimal.TEN,
+                                Currency.getInstance(currency),
                                 new Date(System.currentTimeMillis())
                         )
                 );
                 return null;
             });
+        }
 
         ExecutorService executorService = Executors.newFixedThreadPool(20);
         executorService.invokeAll(callables);
@@ -53,19 +61,24 @@ public class PaymentProcessorTest {
         PaymentProcessor paymentProcessor = new PaymentProcessorImpl(payment -> {});
 
         List<Callable<Void>> callables = new ArrayList<>();
-        for (int i = 0; i < 105; i++)
+        for (int i = 0; i < 105; i++) {
+
+            String name = NAMES[i % 5];
+            String currency = CURRENCIES[i % 3];
+
             callables.add(() -> {
                 paymentProcessor.process(
                         new Payment(
+                                name,
                                 "",
-                                "",
-                                BigDecimal.ZERO,
-                                Currency.getInstance("EUR"),
+                                BigDecimal.TEN,
+                                Currency.getInstance(currency),
                                 new Date(System.currentTimeMillis())
                         )
                 );
                 return null;
             });
+        }
 
         long start = System.nanoTime();
         ExecutorService executorService = Executors.newFixedThreadPool(105);
@@ -81,19 +94,24 @@ public class PaymentProcessorTest {
         PaymentProcessor paymentProcessor = new PaymentProcessorImpl(payment -> {});
 
         List<Callable<Void>> callables = new ArrayList<>();
-        for (int i = 0; i < 205; i++)
+        for (int i = 0; i < 205; i++) {
+
+            String name = NAMES[i % 5];
+            String currency = CURRENCIES[i % 3];
+
             callables.add(() -> {
                 paymentProcessor.process(
                         new Payment(
+                                name,
                                 "",
-                                "",
-                                BigDecimal.ZERO,
-                                Currency.getInstance("EUR"),
+                                BigDecimal.TEN,
+                                Currency.getInstance(currency),
                                 new Date(System.currentTimeMillis())
                         )
                 );
                 return null;
             });
+        }
 
         long start = System.nanoTime();
         ExecutorService executorService = Executors.newFixedThreadPool(205);
