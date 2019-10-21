@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
 public class PaymentProcessorImpl implements PaymentProcessor {
 
     private RateLimiter rateLimiter = RateLimiter.create(100);
-    private Semaphore semaphore = new Semaphore(3, true);
+    private Semaphore semaphore = new Semaphore(3);
 
     private PaymentRepository paymentRepository;
 
