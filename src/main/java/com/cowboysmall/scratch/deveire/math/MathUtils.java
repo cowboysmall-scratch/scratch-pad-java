@@ -6,6 +6,7 @@ import static java.lang.Math.ceil;
 import static java.lang.Math.floor;
 import static java.lang.Math.log;
 
+
 public class MathUtils {
 
     public static boolean isPowerOfTwo(Long number) {
