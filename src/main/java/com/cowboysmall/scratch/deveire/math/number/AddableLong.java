@@ -1,12 +1,10 @@
 package com.cowboysmall.scratch.deveire.math.number;
 
-import java.math.BigDecimal;
+public class AddableLong extends AddableNumber<Long> {
 
-public class AddableBigDecimal extends AddableNumber<BigDecimal> {
+    private final Long value;
 
-    private final BigDecimal value;
-
-    public AddableBigDecimal(BigDecimal value) {
+    public AddableLong(Long value) {
 
         this.value = value;
     }
@@ -15,13 +13,13 @@ public class AddableBigDecimal extends AddableNumber<BigDecimal> {
     //_________________________________________________________________________
 
     @Override
-    public AddableNumber<BigDecimal> add(AddableNumber<BigDecimal> addableNumber) {
+    public AddableNumber<Long> add(AddableNumber<Long> addableNumber) {
 
-        return new AddableBigDecimal(value.add(addableNumber.getValue()));
+        return new AddableLong(value + addableNumber.getValue());
     }
 
     @Override
-    public BigDecimal getValue() {
+    public Long getValue() {
 
         return value;
     }
@@ -38,7 +36,7 @@ public class AddableBigDecimal extends AddableNumber<BigDecimal> {
     @Override
     public long longValue() {
 
-        return value.longValue();
+        return value;
     }
 
     @Override

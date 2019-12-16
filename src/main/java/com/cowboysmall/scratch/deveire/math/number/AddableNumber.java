@@ -27,4 +27,10 @@ public abstract class AddableNumber<T> extends Number {
 
         return Objects.hash(getValue());
     }
+
+    @Override
+    public String toString() {
+
+        return getValue().toString();
+    }
 }

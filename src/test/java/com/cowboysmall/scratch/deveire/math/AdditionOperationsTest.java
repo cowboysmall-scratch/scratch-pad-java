@@ -3,6 +3,7 @@ package com.cowboysmall.scratch.deveire.math;
 import com.cowboysmall.scratch.deveire.math.number.AddableBigDecimal;
 import com.cowboysmall.scratch.deveire.math.number.AddableBigInteger;
 import com.cowboysmall.scratch.deveire.math.number.AddableInteger;
+import com.cowboysmall.scratch.deveire.math.number.AddableLong;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
@@ -22,6 +23,14 @@ public class AdditionOperationsTest {
                         new AddableInteger(5)
                 ),
                 is(new AddableInteger(9))
+        );
+
+        assertThat(
+                AdditionOperations.add(
+                        new AddableLong(444444444444L),
+                        new AddableLong(555555555555L)
+                ),
+                is(new AddableLong(999999999999L))
         );
 
         assertThat(

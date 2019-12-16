@@ -2,11 +2,11 @@ package com.cowboysmall.scratch.deveire.math.number;
 
 public class AddableInteger extends AddableNumber<Integer> {
 
-    private final Integer integer;
+    private final Integer value;
 
-    public AddableInteger(Integer integer) {
+    public AddableInteger(Integer value) {
 
-        this.integer = integer;
+        this.value = value;
     }
 
 
@@ -15,13 +15,13 @@ public class AddableInteger extends AddableNumber<Integer> {
     @Override
     public AddableNumber<Integer> add(AddableNumber<Integer> addableNumber) {
 
-        return new AddableInteger(integer + addableNumber.intValue());
+        return new AddableInteger(value + addableNumber.getValue());
     }
 
     @Override
     public Integer getValue() {
 
-        return integer;
+        return value;
     }
 
 
@@ -30,24 +30,24 @@ public class AddableInteger extends AddableNumber<Integer> {
     @Override
     public int intValue() {
 
-        return integer;
+        return value;
     }
 
     @Override
     public long longValue() {
 
-        return integer.longValue();
+        return value.longValue();
     }
 
     @Override
     public float floatValue() {
 
-        return integer.floatValue();
+        return value.floatValue();
     }
 
     @Override
     public double doubleValue() {
 
-        return integer.doubleValue();
+        return value.doubleValue();
     }
 }

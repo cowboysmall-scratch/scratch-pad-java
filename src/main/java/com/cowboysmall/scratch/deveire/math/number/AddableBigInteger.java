@@ -4,11 +4,11 @@ import java.math.BigInteger;
 
 public class AddableBigInteger extends AddableNumber<BigInteger> {
 
-    private final BigInteger bigInteger;
+    private final BigInteger value;
 
-    public AddableBigInteger(BigInteger bigInteger) {
+    public AddableBigInteger(BigInteger value) {
 
-        this.bigInteger = bigInteger;
+        this.value = value;
     }
 
 
@@ -17,13 +17,13 @@ public class AddableBigInteger extends AddableNumber<BigInteger> {
     @Override
     public AddableNumber<BigInteger> add(AddableNumber<BigInteger> addableNumber) {
 
-        return new AddableBigInteger(bigInteger.add(addableNumber.getValue()));
+        return new AddableBigInteger(value.add(addableNumber.getValue()));
     }
 
     @Override
     public BigInteger getValue() {
 
-        return bigInteger;
+        return value;
     }
 
 
@@ -32,24 +32,24 @@ public class AddableBigInteger extends AddableNumber<BigInteger> {
     @Override
     public int intValue() {
 
-        return bigInteger.intValue();
+        return value.intValue();
     }
 
     @Override
     public long longValue() {
 
-        return bigInteger.longValue();
+        return value.longValue();
     }
 
     @Override
     public float floatValue() {
 
-        return bigInteger.floatValue();
+        return value.floatValue();
     }
 
     @Override
     public double doubleValue() {
 
-        return bigInteger.doubleValue();
+        return value.doubleValue();
     }
 }
