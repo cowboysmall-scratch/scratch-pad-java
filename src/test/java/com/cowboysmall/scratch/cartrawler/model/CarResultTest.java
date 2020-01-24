@@ -8,15 +8,15 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class CarResultTest {
 
     public static final CarResult CAR_RESULT_1 =
-            new CarResult("Volkswagen Polo", "NIZA", "EDMR", 12.81d, FuelPolicy.FULLEMPTY);
+            new CarResult("Volkswagen Polo", "NIZA", "EDMR", FuelPolicy.FULLEMPTY, 12.81d);
     public static final CarResult CAR_RESULT_2 =
-            new CarResult("Ford C-Max Diesel", "NIZA", "CMMD", 22.04d, FuelPolicy.FULLEMPTY);
+            new CarResult("Ford C-Max Diesel", "NIZA", "CMMD", FuelPolicy.FULLEMPTY, 22.04d);
     public static final CarResult CAR_RESULT_3 =
-            new CarResult("Volkswagen Up", "NIZA", "MDMR", 9.78d, FuelPolicy.FULLEMPTY);
+            new CarResult("Volkswagen Up", "NIZA", "MDMR", FuelPolicy.FULLEMPTY, 9.78d);
     public static final CarResult CAR_RESULT_4 =
-            new CarResult("Renault Scenic Diesel", "NIZA", "JGAD", 93.67d, FuelPolicy.FULLEMPTY);
+            new CarResult("Renault Scenic Diesel", "NIZA", "JGAD", FuelPolicy.FULLEMPTY, 93.67d);
     public static final CarResult CAR_RESULT_5 =
-            new CarResult("Ford Focus Estate", "AVIS", "CWMR", 291.28d, FuelPolicy.FULLFULL);
+            new CarResult("Ford Focus Estate", "AVIS", "CWMR", FuelPolicy.FULLFULL, 291.28d);
 
 
     @Test

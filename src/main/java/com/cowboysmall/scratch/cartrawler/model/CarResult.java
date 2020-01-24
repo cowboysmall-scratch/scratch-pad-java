@@ -8,26 +8,28 @@ import java.util.stream.Stream;
 
 public class CarResult {
 
-    public static final Set<String> CORPORATE_SUPPLIERS =
+    private static final Set<String> CORPORATE_SUPPLIERS =
             Stream.of("AVIS", "BUDGET", "ENTERPRISE", "FIREFLY", "HERTZ", "SIXT", "THRIFTY")
                     .collect(Collectors.toSet());
 
     private final String description;
     private final String supplierName;
     private final String sippCode;
-    private final double rentalCost;
+
     private final FuelPolicy fuelPolicy;
+
+    private final double rentalCost;
 
 
     //_________________________________________________________________________
 
-    public CarResult(String description, String supplierName, String sippCode, double rentalCost, FuelPolicy fuelPolicy) {
+    public CarResult(String description, String supplierName, String sippCode, FuelPolicy fuelPolicy, double rentalCost) {
 
         this.description = description;
         this.supplierName = supplierName;
         this.sippCode = sippCode;
-        this.rentalCost = rentalCost;
         this.fuelPolicy = fuelPolicy;
+        this.rentalCost = rentalCost;
     }
 
 
@@ -48,14 +50,14 @@ public class CarResult {
         return sippCode;
     }
 
-    public double getRentalCost() {
-
-        return rentalCost;
-    }
-
     public FuelPolicy getFuelPolicy() {
 
         return fuelPolicy;
+    }
+
+    public double getRentalCost() {
+
+        return rentalCost;
     }
 
 

@@ -14,26 +14,26 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class CarResultProcessorTest {
 
     public static final CarResult CAR_RESULT_01 =
-            new CarResult("Volkswagen Polo", "NIZA", "EDMR", 12.81d, FuelPolicy.FULLEMPTY);
+            new CarResult("Volkswagen Polo", "NIZA", "EDMR", FuelPolicy.FULLEMPTY, 12.81d);
     public static final CarResult CAR_RESULT_02 =
-            new CarResult("Ford C-Max Diesel", "NIZA", "CMMD", 22.04d, FuelPolicy.FULLEMPTY);
+            new CarResult("Ford C-Max Diesel", "NIZA", "CMMD", FuelPolicy.FULLEMPTY, 22.04d);
     public static final CarResult CAR_RESULT_03 =
-            new CarResult("Volkswagen Up", "NIZA", "MDMR", 9.78d, FuelPolicy.FULLEMPTY);
+            new CarResult("Volkswagen Up", "NIZA", "MDMR", FuelPolicy.FULLEMPTY, 9.78d);
     public static final CarResult CAR_RESULT_04 =
-            new CarResult("Renault Scenic Diesel", "NIZA", "JGAD", 93.67d, FuelPolicy.FULLEMPTY);
+            new CarResult("Renault Scenic Diesel", "NIZA", "JGAD", FuelPolicy.FULLEMPTY, 93.67d);
     public static final CarResult CAR_RESULT_05 =
-            new CarResult("Ford Focus Estate", "AVIS", "CWMR", 291.28d, FuelPolicy.FULLFULL);
+            new CarResult("Ford Focus Estate", "AVIS", "CWMR", FuelPolicy.FULLFULL, 291.28d);
     public static final CarResult CAR_RESULT_06 =
-            new CarResult("Volkswagen Polo", "AVIS", "EDMR", 160.73d, FuelPolicy.FULLFULL);
+            new CarResult("Volkswagen Polo", "AVIS", "EDMR", FuelPolicy.FULLFULL, 160.73d);
     public static final CarResult CAR_RESULT_07 =
-            new CarResult("Peugeot 107", "AVIS", "MCMR", 145.52d, FuelPolicy.FULLFULL);
+            new CarResult("Peugeot 107", "AVIS", "MCMR", FuelPolicy.FULLFULL, 145.52d);
     public static final CarResult CAR_RESULT_08 =
-            new CarResult("Toyota Avensis", "AVIS", "IDAR", 465.34d, FuelPolicy.FULLFULL);
+            new CarResult("Toyota Avensis", "AVIS", "IDAR", FuelPolicy.FULLFULL, 465.34d);
 
     public static final CarResult CAR_RESULT_09 =
-            new CarResult("Ford Galaxy Diesel", "AVIS", "FVMD", 520.49d, FuelPolicy.FULLFULL);
+            new CarResult("Ford Galaxy Diesel", "AVIS", "FVMD", FuelPolicy.FULLFULL, 520.49d);
     public static final CarResult CAR_RESULT_10 =
-            new CarResult("Mercedes A Class", "AVIS", "ICAV", 310.56d, FuelPolicy.FULLFULL);
+            new CarResult("Mercedes A Class", "AVIS", "ICAV", FuelPolicy.FULLFULL, 310.56d);
 
 
     @Test
