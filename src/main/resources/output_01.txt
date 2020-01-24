@@ -1,239 +1,239 @@
-FIREFLY     Peugeot 107                     MCMR         26.57   FULLEMPTY
-THRIFTY     Peugeot 107                     MCMR         67.03    FULLFULL
-HERTZ       Peugeot 107                     MCMR         67.98    FULLFULL
-ENTERPRISE  Peugeot 107                     MCMR         78.10    FULLFULL
-SIXT        Peugeot 107                     MCMR         97.08    FULLFULL
-SIXT        Smart Fortwo                    MUMR        115.76    FULLFULL
-AVIS        Peugeot 107                     MCMR        145.52    FULLFULL
-FIREFLY     Volkswagen Polo                 EDMR         29.79   FULLEMPTY
-FIREFLY     Renault Clio Estate             EWMR         45.16   FULLEMPTY
-ENTERPRISE  Volkswagen Polo                 EDMR        105.51    FULLFULL
-SIXT        Opel Corsa                      ECMN        107.58    FULLFULL
-SIXT        Volkswagen Polo                 EDMR        128.93    FULLFULL
-AVIS        Volkswagen Polo                 EDMR        160.73    FULLFULL
-FIREFLY     Volkswagen Golf                 CDMR         33.84   FULLEMPTY
-FIREFLY     Citroen Berlingo                CMMV         35.67   FULLEMPTY
-SIXT        Volkswagen Golf                 CDMR        134.45    FULLFULL
-ENTERPRISE  Volkswagen Golf                 CDMR        142.05    FULLFULL
-BUDGET      Opel Astra                      CCMR        177.15    FULLFULL
-SIXT        Citroen C4 Cactus               CGAR        191.54    FULLFULL
-AVIS        Opel Astra                      CCMR        203.32    FULLFULL
-ENTERPRISE  Citroen Berlingo                CMMV        212.23    FULLFULL
-SIXT        Ford Focus Estate               CWMR        222.56    FULLFULL
-AVIS        Volkswagen Golf Diesel          CDMD        258.69    FULLFULL
-BUDGET      Volkswagen Golf                 CDMR        268.97    FULLFULL
-AVIS        Ford Focus Estate               CWMR        291.28    FULLFULL
-ENTERPRISE  Volkswagen Golf                 CDAR        516.28    FULLFULL
-ENTERPRISE  Toyota Avensis                  IDMR        124.84    FULLFULL
-FIREFLY     Volkswagen Touran               IVMR        125.92   FULLEMPTY
-SIXT        BMW 2 Series Active Tourer      JDMR        183.14    FULLFULL
-SIXT        Audi A3                         ICMR        186.37    FULLFULL
-ENTERPRISE  Volkswagen Passat               SDMR        206.50    FULLFULL
-BUDGET      Toyota Avensis                  IDMR        211.89    FULLFULL
-ENTERPRISE  Renault Scenic                  IMMR        224.74    FULLFULL
-SIXT        BMW 3 Series                    FDMR        225.18    FULLFULL
-SIXT        BMW 2 Series Active Tourer      JDAR        239.18    FULLFULL
-SIXT        Renault Scenic                  JGMR        245.09    FULLFULL
-SIXT        Mini Convertible                NTMR        248.85    FULLFULL
-SIXT        Mercedes A Class                ICAV        254.02    FULLFULL
-ENTERPRISE  Renault Scenic                  JGMR        268.42    FULLFULL
-SIXT        Toyota Rav4                     IFMR        276.73    FULLFULL
-SIXT        Volkswagen Passat Estate        SWMR        292.78    FULLFULL
-SIXT        BMW 3 Series                    FDAR        295.22    FULLFULL
-AVIS        Skoda Octavia Diesel            IDMD        310.22    FULLFULL
-AVIS        Mercedes A Class                ICAV        310.56    FULLFULL
-SIXT        Mercedes E Class                PDMR        325.38    FULLFULL
-SIXT        Toyota Rav4                     IFAR        328.62    FULLFULL
-AVIS        Toyota Avensis                  IDMR        373.69    FULLFULL
-ENTERPRISE  Volkswagen Touran               IVAR        392.35    FULLFULL
-SIXT        Mercedes E Class                PDAR        403.22    FULLFULL
-ENTERPRISE  Toyota Avensis                  IDAR        413.05    FULLFULL
-AVIS        Toyota Avensis                  IDAR        465.34    FULLFULL
-AVIS        Volkswagen Touran Diesel        IVMD        495.74    FULLFULL
-ENTERPRISE  Ford Galaxy                     FVMR        512.95    FULLFULL
-AVIS        Ford Galaxy Diesel              FVMD        520.49    FULLFULL
-AVIS        Volkswagen Touran Diesel        IVAD        520.49    FULLFULL
-AVIS        Mercedes Viano                  OVAR        572.44    FULLFULL
-ENTERPRISE  Mercedes Vito Traveliner        SVMR        579.11    FULLFULL
-AVIS        Mercedes Vito Traveliner        SVMR        624.38    FULLFULL
-SIXT        Ford Galaxy                     FVMR        692.45    FULLFULL
-AVIS        Mercedes E Class                PDAR        948.24    FULLFULL
-MARBESOL    Volkswagen Up                   MDMR          4.00   FULLEMPTY
-DELPASO     Volkswagen Up                   MDMR          5.92   FULLEMPTY
-DELPASO     Peugeot 107                     MCMR          5.92   FULLEMPTY
-CENTAURO    Peugeot 107                     MCMR          9.53   FULLEMPTY
-NIZA        Volkswagen Up                   MDMR          9.78   FULLEMPTY
-NIZA        Volkswagen Up                   MDMR         18.60    FULLFULL
-RECORD      Peugeot 107                     MCMR         19.10   FULLEMPTY
-GOLDCAR     Peugeot 107                     MCMR         26.86   FULLEMPTY
-GOLDCAR     Peugeot 107                     MCMR         39.63    FULLFULL
-CENTAURO    Peugeot 107                     MCMR         40.82    FULLFULL
-FLIZZR      Citroen C1                      MBMR         42.54   FULLEMPTY
-FLIZZR      Citroen C1                      MBMR         49.08    FULLFULL
-MARBESOL    Volkswagen Up                   MDMR         69.93    FULLFULL
-RHODIUM     Peugeot 107                     MCMR         87.36    FULLFULL
-MARBESOL    Volkswagen Polo                 EDMR          4.49   FULLEMPTY
-MARBESOL    Volkswagen Polo                 EDMM          4.80   FULLEMPTY
-MARBESOL    Ford Fiesta Diesel              EDMD          5.11   FULLEMPTY
-DELPASO     Volkswagen Polo                 EDMR          6.23   FULLEMPTY
-MARBESOL    Renault Clio Estate             EWMR         10.93   FULLEMPTY
-CENTAURO    Volkswagen Polo                 EDMR         11.08   FULLEMPTY
-NIZA        Volkswagen Polo                 EDMR         12.81   FULLEMPTY
-NIZA        Mini Cooper                     EDMR         16.75   FULLEMPTY
-MARBESOL    Toyota Yaris                    EDAR         16.86   FULLEMPTY
-RECORD      Volkswagen Polo                 EDMR         22.23   FULLEMPTY
-NIZA        Volkswagen Polo                 EDMR         22.65    FULLFULL
-CENTAURO    Ford Fiesta Diesel              EDMD         25.02   FULLEMPTY
-GOLDCAR     Volkswagen Polo                 EDMR         31.71   FULLEMPTY
-NIZA        Mini Cooper                     EDMR         36.92    FULLFULL
-CENTAURO    Volkswagen Polo                 EDMR         42.41    FULLFULL
-GOLDCAR     Volkswagen Polo                 EDMR         44.99    FULLFULL
-FLIZZR      Opel Corsa                      EBMN         49.29   FULLEMPTY
-FLIZZR      Volkswagen Polo                 EDMR         49.29   FULLEMPTY
-FLIZZR      Citroen DS3                     ESMR         53.56   FULLEMPTY
-FLIZZR      Volkswagen Polo                 EDMR         56.51    FULLFULL
-FLIZZR      Opel Corsa                      EBMN         56.51    FULLFULL
-CENTAURO    Ford Fiesta Diesel              EDMD         56.77    FULLFULL
-GOLDCAR     Citroen DS3                     ESMR         60.00    FULLFULL
-FLIZZR      Citroen DS3                     ESMR         61.44    FULLFULL
-GOLDCAR     Citroen DS3                     ESMR         63.69   FULLEMPTY
-MARBESOL    Volkswagen Polo                 EDMR         70.89    FULLFULL
-MARBESOL    Volkswagen Polo                 EDMM         70.89    FULLFULL
-MARBESOL    Ford Fiesta Diesel              EDMD         73.78    FULLFULL
-FLIZZR      Citroen C3 Picasso              EMMV         75.93   FULLEMPTY
-FLIZZR      Peugeot 2008                    EGMR         78.43   FULLEMPTY
-MARBESOL    Renault Clio Estate             EWMR         82.37    FULLFULL
-FLIZZR      Citroen C3 Picasso              EMMV         87.73    FULLFULL
-FLIZZR      Peugeot 2008                    EGMR         90.23    FULLFULL
-MARBESOL    Toyota Yaris                    EDAR         91.44    FULLFULL
-RHODIUM     Volkswagen Polo                 EDMR         92.90    FULLFULL
-RHODIUM     Citroen DS3                     ESMR        116.51    FULLFULL
-MARBESOL    Volkswagen Golf                 CDMR          8.05   FULLEMPTY
-MARBESOL    Volkswagen Golf Diesel          CDMD          8.86   FULLEMPTY
-MARBESOL    Mercedes Citan                  CMMD         10.53   FULLEMPTY
-MARBESOL    Citroen Berlingo                CMMV         10.53   FULLEMPTY
-DELPASO     Volkswagen Golf                 CDMR         11.49   FULLEMPTY
-MARBESOL    Ford Focus Estate               CWMR         16.11   FULLEMPTY
-NIZA        Volkswagen Golf                 CDMR         18.07   FULLEMPTY
-NIZA        Ford C-Max Diesel               CMMD         22.04   FULLEMPTY
-MARBESOL    Volkswagen Golf                 CDAR         25.24   FULLEMPTY
-RECORD      Volkswagen Golf                 CDMR         26.52   FULLEMPTY
-CENTAURO    Volkswagen Golf                 CDMR         26.96   FULLEMPTY
-RECORD      Nissan Juke                     CFMR         28.64   FULLEMPTY
-DELPASO     Ford Focus Estate               CWMR         31.35   FULLEMPTY
-NIZA        Volkswagen Golf                 CDMR         33.06    FULLFULL
-CENTAURO    Citroen Berlingo                CMMV         33.15   FULLEMPTY
-RECORD      Citroen Berlingo                CMMV         33.26   FULLEMPTY
-GOLDCAR     Volkswagen Golf                 CDMR         39.79   FULLEMPTY
-CENTAURO    Volkswagen Golf Diesel          CDMD         40.91   FULLEMPTY
-NIZA        Audi A3 Diesel                  CDMD         41.16   FULLEMPTY
-NIZA        Ford C-Max Diesel               CMMD         43.98    FULLFULL
-GOLDCAR     Volkswagen Golf                 CDMR         49.58    FULLFULL
-GOLDCAR     Volkswagen Golf                 CLMR         52.02   FULLEMPTY
-GOLDCAR     Citroen Berlingo                CMMV         53.89   FULLEMPTY
-GOLDCAR     Volkswagen Golf                 CLMR         54.13    FULLFULL
-CENTAURO    Volkswagen Golf                 CDMR         58.77    FULLFULL
-CENTAURO    Ford Focus Estate               CWMR         59.12   FULLEMPTY
-MARBESOL    Renault Megane Convertible      CTMR         59.22   FULLEMPTY
-NIZA        Audi A3 Diesel                  CDMD         63.07    FULLFULL
-CENTAURO    Citroen Berlingo                CMMV         65.15    FULLFULL
-CENTAURO    Ford Focus Estate Diesel        CWMD         67.26   FULLEMPTY
-CENTAURO    Ford C-Max Diesel               CMMD         69.20   FULLEMPTY
-GOLDCAR     Citroen Berlingo                CMMV         70.83    FULLFULL
-CENTAURO    Volkswagen Golf Diesel          CDMD         73.14    FULLFULL
-MARBESOL    Volkswagen Golf                 CDMR         75.14    FULLFULL
-MARBESOL    Volkswagen Golf Diesel          CDMD         76.94    FULLFULL
-MARBESOL    Mercedes Citan                  CMMD         78.06    FULLFULL
-MARBESOL    Citroen Berlingo                CMMV         78.06    FULLFULL
-MARBESOL    Ford Focus Estate               CWMR         85.54    FULLFULL
-FLIZZR      Volkswagen Golf                 CDMR         87.91   FULLEMPTY
-CENTAURO    Ford Focus Estate               CWMR         91.89    FULLFULL
-CENTAURO    Ford Focus Estate Diesel        CWMD        100.27    FULLFULL
-FLIZZR      Volkswagen Golf                 CDMR        101.62    FULLFULL
-CENTAURO    Ford C-Max Diesel               CMMD        102.27    FULLFULL
-RHODIUM     Volkswagen Golf                 CDMR        104.53    FULLFULL
-MARBESOL    Volkswagen Golf                 CDAR        109.50    FULLFULL
-RHODIUM     Volkswagen Golf                 CLMR        109.76    FULLFULL
-FLIZZR      Citroen Berlingo                CMMV        113.91    FULLFULL
-GOLDCAR     Ford Focus Estate               CWMR        114.01    FULLFULL
-RHODIUM     Citroen Berlingo                CMMV        114.01    FULLFULL
-MARBESOL    Citroen C4 Cactus               CGAR        114.03    FULLFULL
-GOLDCAR     Ford Focus Estate               CWMR        126.08   FULLEMPTY
-GOLDCAR     Nissan Juke                     CFMR        127.33    FULLFULL
-GOLDCAR     Nissan Juke                     CFMR        146.54   FULLEMPTY
-RHODIUM     Ford Focus Estate               CWMR        177.09    FULLFULL
-MARBESOL    Renault Megane Convertible      CTMR        204.47    FULLFULL
-RHODIUM     Volkswagen Golf                 CDAR        243.55    FULLFULL
-CENTAURO    Nissan Juke Diesel              HFMD         34.32   FULLEMPTY
-MARBESOL    Volkswagen Touran               IVMR         35.64   FULLEMPTY
-RECORD      Toyota Rav4                     IFMR         36.30   FULLEMPTY
-MARBESOL    Toyota Avensis                  IDMR         36.57   FULLEMPTY
-MARBESOL    Volkswagen Passat Diesel        IDMD         38.15   FULLEMPTY
-DELPASO     Toyota Rav4                     IFMR         41.16   FULLEMPTY
-MARBESOL    Volkswagen Passat               SDAR         44.14   FULLEMPTY
-MARBESOL    Ford Galaxy                     FVMR         45.07   FULLEMPTY
-MARBESOL    Nissan Qashqai                  IFMR         45.07   FULLEMPTY
-MARBESOL    BMW 3 Series                    FDMR         47.55   FULLEMPTY
-NIZA        Volkswagen Touran Diesel        IVMD         55.47   FULLEMPTY
-CENTAURO    Nissan Juke Diesel              HFMD         66.35    FULLFULL
-CENTAURO    Volkswagen Touran               IVMR         72.29   FULLEMPTY
-MARBESOL    BMW 3 Series                    FDAR         74.03   FULLEMPTY
-GOLDCAR     Audi A3                         ICMR         74.04    FULLFULL
-FLIZZR      Toyota Rav4                     IFMR         75.93   FULLEMPTY
-NIZA        Volkswagen Touran Diesel        IVMD         77.41    FULLFULL
-CENTAURO    Volkswagen Touran Diesel        IVMD         80.43   FULLEMPTY
-GOLDCAR     Audi A3                         ICMR         84.46   FULLEMPTY
-MARBESOL    Renault Scenic                  JGMR         86.44    FULLFULL
-FLIZZR      Toyota Rav4                     IFMR         87.73    FULLFULL
-MARBESOL    Nissan Qashqai                  IFMR         88.27    FULLFULL
-NIZA        Renault Scenic Diesel           JGAD         93.67   FULLEMPTY
-MARBESOL    Toyota Avensis                  IDMR         95.47    FULLFULL
-GOLDCAR     Toyota Avensis                  IDAR         97.31    FULLFULL
-MARBESOL    Volkswagen Passat Diesel        IDMD         98.20    FULLFULL
-CENTAURO    Volkswagen Touran               IVAR         99.80   FULLEMPTY
-CENTAURO    Volkswagen Touran               IVMR        105.45    FULLFULL
-MARBESOL    Mercedes Vito Traveliner        SVMR        108.04   FULLEMPTY
-CENTAURO    Volkswagen Touran Diesel        IVMD        113.83    FULLFULL
-NIZA        Renault Scenic Diesel           JGAD        115.58    FULLFULL
-GOLDCAR     Toyota Avensis                  IDAR        116.68   FULLEMPTY
-GOLDCAR     Renault Scenic                  JGMR        120.59    FULLFULL
-DELPASO     Mercedes Vito Traveliner        SVMR        121.26   FULLEMPTY
-MARBESOL    Volkswagen Passat               SDAR        123.09    FULLFULL
-MARBESOL    Volkswagen Passat Diesel        IDAD        127.59    FULLFULL
-RHODIUM     Audi A3                         ICMR        130.54    FULLFULL
-CENTAURO    Volkswagen Touran               IVAR        133.79    FULLFULL
-GOLDCAR     Renault Scenic                  JGMR        139.95   FULLEMPTY
-NIZA        BMW 2 Series Gran Tourer Diesel JVAD        146.62    FULLFULL
-CENTAURO    Ford Galaxy Diesel              FVMD        148.23   FULLEMPTY
-RHODIUM     Toyota Avensis                  IDAR        153.82    FULLFULL
-RECORD      Ford Galaxy                     FVMR        154.59   FULLEMPTY
-FLIZZR      Volkswagen Touran               IVMR        159.66    FULLFULL
-RECORD      Ford Galaxy                     FVAR        160.75   FULLEMPTY
-CENTAURO    Mercedes Vito Traveliner        SVMR        163.73   FULLEMPTY
-MARBESOL    Volkswagen Touran               IVMR        168.28    FULLFULL
-MARBESOL    BMW 1 Series                    IDAR        172.81    FULLFULL
-RHODIUM     Renault Scenic                  JGMR        180.47    FULLFULL
-CENTAURO    Ford Galaxy Diesel              FVMD        183.66    FULLFULL
-MARBESOL    BMW 4 Series Convertible        RTAV        189.85   FULLEMPTY
-MARBESOL    BMW 3 Series                    FDMR        195.43    FULLFULL
-CENTAURO    Mercedes Vito Traveliner        SVMR        199.62    FULLFULL
-MARBESOL    BMW 3 Series                    FDAR        199.93    FULLFULL
-MARBESOL    Ford Galaxy                     FVMR        213.53    FULLFULL
-MARBESOL    Mercedes Vito Traveliner        SVMR        231.59    FULLFULL
-GOLDCAR     Toyota Avensis                  IDMR        243.55    FULLFULL
-RHODIUM     Toyota Avensis                  IDMR        300.05    FULLFULL
-GOLDCAR     Toyota Avensis                  IDMR        301.95   FULLEMPTY
-GOLDCAR     Volkswagen Touran               IVMR        303.43    FULLFULL
-GOLDCAR     Citroen C4 Grand Picasso        IVAR        326.70    FULLFULL
-GOLDCAR     BMW 3 Series                    FDAR        353.17    FULLFULL
-RHODIUM     Volkswagen Touran               IVMR        359.93    FULLFULL
-GOLDCAR     Volkswagen Touran               IVMR        366.84   FULLEMPTY
-RHODIUM     Volkswagen Touran               IVAR        383.03    FULLFULL
-GOLDCAR     Citroen C4 Grand Picasso        IVAR        399.28   FULLEMPTY
-RHODIUM     BMW 3 Series                    FDAR        409.68    FULLFULL
-GOLDCAR     BMW 3 Series                    FDAR        436.43   FULLEMPTY
-GOLDCAR     Mercedes Vito Traveliner        SVMR        509.37    FULLFULL
-RHODIUM     Ford Galaxy                     FVMR        509.37    FULLFULL
-MARBESOL    BMW 4 Series Convertible        RTAV        516.52    FULLFULL
-RHODIUM     Mercedes Vito Traveliner        SVMR        565.88    FULLFULL
-GOLDCAR     Mercedes Vito Traveliner        SVMR        621.70   FULLEMPTY
+FIREFLY   	Peugeot 107                   	MCMR      	 26.57	 FULLEMPTY
+THRIFTY   	Peugeot 107                   	MCMR      	 67.03	  FULLFULL
+HERTZ     	Peugeot 107                   	MCMR      	 67.98	  FULLFULL
+ENTERPRISE	Peugeot 107                   	MCMR      	 78.10	  FULLFULL
+SIXT      	Peugeot 107                   	MCMR      	 97.08	  FULLFULL
+SIXT      	Smart Fortwo                  	MUMR      	115.76	  FULLFULL
+AVIS      	Peugeot 107                   	MCMR      	145.52	  FULLFULL
+FIREFLY   	Volkswagen Polo               	EDMR      	 29.79	 FULLEMPTY
+FIREFLY   	Renault Clio Estate           	EWMR      	 45.16	 FULLEMPTY
+ENTERPRISE	Volkswagen Polo               	EDMR      	105.51	  FULLFULL
+SIXT      	Opel Corsa                    	ECMN      	107.58	  FULLFULL
+SIXT      	Volkswagen Polo               	EDMR      	128.93	  FULLFULL
+AVIS      	Volkswagen Polo               	EDMR      	160.73	  FULLFULL
+FIREFLY   	Volkswagen Golf               	CDMR      	 33.84	 FULLEMPTY
+FIREFLY   	Citroen Berlingo              	CMMV      	 35.67	 FULLEMPTY
+SIXT      	Volkswagen Golf               	CDMR      	134.45	  FULLFULL
+ENTERPRISE	Volkswagen Golf               	CDMR      	142.05	  FULLFULL
+BUDGET    	Opel Astra                    	CCMR      	177.15	  FULLFULL
+SIXT      	Citroen C4 Cactus             	CGAR      	191.54	  FULLFULL
+AVIS      	Opel Astra                    	CCMR      	203.32	  FULLFULL
+ENTERPRISE	Citroen Berlingo              	CMMV      	212.23	  FULLFULL
+SIXT      	Ford Focus Estate             	CWMR      	222.56	  FULLFULL
+AVIS      	Volkswagen Golf Diesel        	CDMD      	258.69	  FULLFULL
+BUDGET    	Volkswagen Golf               	CDMR      	268.97	  FULLFULL
+AVIS      	Ford Focus Estate             	CWMR      	291.28	  FULLFULL
+ENTERPRISE	Volkswagen Golf               	CDAR      	516.28	  FULLFULL
+ENTERPRISE	Toyota Avensis                	IDMR      	124.84	  FULLFULL
+FIREFLY   	Volkswagen Touran             	IVMR      	125.92	 FULLEMPTY
+SIXT      	BMW 2 Series Active Tourer    	JDMR      	183.14	  FULLFULL
+SIXT      	Audi A3                       	ICMR      	186.37	  FULLFULL
+ENTERPRISE	Volkswagen Passat             	SDMR      	206.50	  FULLFULL
+BUDGET    	Toyota Avensis                	IDMR      	211.89	  FULLFULL
+ENTERPRISE	Renault Scenic                	IMMR      	224.74	  FULLFULL
+SIXT      	BMW 3 Series                  	FDMR      	225.18	  FULLFULL
+SIXT      	BMW 2 Series Active Tourer    	JDAR      	239.18	  FULLFULL
+SIXT      	Renault Scenic                	JGMR      	245.09	  FULLFULL
+SIXT      	Mini Convertible              	NTMR      	248.85	  FULLFULL
+SIXT      	Mercedes A Class              	ICAV      	254.02	  FULLFULL
+ENTERPRISE	Renault Scenic                	JGMR      	268.42	  FULLFULL
+SIXT      	Toyota Rav4                   	IFMR      	276.73	  FULLFULL
+SIXT      	Volkswagen Passat Estate      	SWMR      	292.78	  FULLFULL
+SIXT      	BMW 3 Series                  	FDAR      	295.22	  FULLFULL
+AVIS      	Skoda Octavia Diesel          	IDMD      	310.22	  FULLFULL
+AVIS      	Mercedes A Class              	ICAV      	310.56	  FULLFULL
+SIXT      	Mercedes E Class              	PDMR      	325.38	  FULLFULL
+SIXT      	Toyota Rav4                   	IFAR      	328.62	  FULLFULL
+AVIS      	Toyota Avensis                	IDMR      	373.69	  FULLFULL
+ENTERPRISE	Volkswagen Touran             	IVAR      	392.35	  FULLFULL
+SIXT      	Mercedes E Class              	PDAR      	403.22	  FULLFULL
+ENTERPRISE	Toyota Avensis                	IDAR      	413.05	  FULLFULL
+AVIS      	Toyota Avensis                	IDAR      	465.34	  FULLFULL
+AVIS      	Volkswagen Touran Diesel      	IVMD      	495.74	  FULLFULL
+ENTERPRISE	Ford Galaxy                   	FVMR      	512.95	  FULLFULL
+AVIS      	Volkswagen Touran Diesel      	IVAD      	520.49	  FULLFULL
+AVIS      	Ford Galaxy Diesel            	FVMD      	520.49	  FULLFULL
+AVIS      	Mercedes Viano                	OVAR      	572.44	  FULLFULL
+ENTERPRISE	Mercedes Vito Traveliner      	SVMR      	579.11	  FULLFULL
+AVIS      	Mercedes Vito Traveliner      	SVMR      	624.38	  FULLFULL
+SIXT      	Ford Galaxy                   	FVMR      	692.45	  FULLFULL
+AVIS      	Mercedes E Class              	PDAR      	948.24	  FULLFULL
+MARBESOL  	Volkswagen Up                 	MDMR      	  4.00	 FULLEMPTY
+DELPASO   	Volkswagen Up                 	MDMR      	  5.92	 FULLEMPTY
+DELPASO   	Peugeot 107                   	MCMR      	  5.92	 FULLEMPTY
+CENTAURO  	Peugeot 107                   	MCMR      	  9.53	 FULLEMPTY
+NIZA      	Volkswagen Up                 	MDMR      	  9.78	 FULLEMPTY
+NIZA      	Volkswagen Up                 	MDMR      	 18.60	  FULLFULL
+RECORD    	Peugeot 107                   	MCMR      	 19.10	 FULLEMPTY
+GOLDCAR   	Peugeot 107                   	MCMR      	 26.86	 FULLEMPTY
+GOLDCAR   	Peugeot 107                   	MCMR      	 39.63	  FULLFULL
+CENTAURO  	Peugeot 107                   	MCMR      	 40.82	  FULLFULL
+FLIZZR    	Citroen C1                    	MBMR      	 42.54	 FULLEMPTY
+FLIZZR    	Citroen C1                    	MBMR      	 49.08	  FULLFULL
+MARBESOL  	Volkswagen Up                 	MDMR      	 69.93	  FULLFULL
+RHODIUM   	Peugeot 107                   	MCMR      	 87.36	  FULLFULL
+MARBESOL  	Volkswagen Polo               	EDMR      	  4.49	 FULLEMPTY
+MARBESOL  	Volkswagen Polo               	EDMM      	  4.80	 FULLEMPTY
+MARBESOL  	Ford Fiesta Diesel            	EDMD      	  5.11	 FULLEMPTY
+DELPASO   	Volkswagen Polo               	EDMR      	  6.23	 FULLEMPTY
+MARBESOL  	Renault Clio Estate           	EWMR      	 10.93	 FULLEMPTY
+CENTAURO  	Volkswagen Polo               	EDMR      	 11.08	 FULLEMPTY
+NIZA      	Volkswagen Polo               	EDMR      	 12.81	 FULLEMPTY
+NIZA      	Mini Cooper                   	EDMR      	 16.75	 FULLEMPTY
+MARBESOL  	Toyota Yaris                  	EDAR      	 16.86	 FULLEMPTY
+RECORD    	Volkswagen Polo               	EDMR      	 22.23	 FULLEMPTY
+NIZA      	Volkswagen Polo               	EDMR      	 22.65	  FULLFULL
+CENTAURO  	Ford Fiesta Diesel            	EDMD      	 25.02	 FULLEMPTY
+GOLDCAR   	Volkswagen Polo               	EDMR      	 31.71	 FULLEMPTY
+NIZA      	Mini Cooper                   	EDMR      	 36.92	  FULLFULL
+CENTAURO  	Volkswagen Polo               	EDMR      	 42.41	  FULLFULL
+GOLDCAR   	Volkswagen Polo               	EDMR      	 44.99	  FULLFULL
+FLIZZR    	Opel Corsa                    	EBMN      	 49.29	 FULLEMPTY
+FLIZZR    	Volkswagen Polo               	EDMR      	 49.29	 FULLEMPTY
+FLIZZR    	Citroen DS3                   	ESMR      	 53.56	 FULLEMPTY
+FLIZZR    	Opel Corsa                    	EBMN      	 56.51	  FULLFULL
+FLIZZR    	Volkswagen Polo               	EDMR      	 56.51	  FULLFULL
+CENTAURO  	Ford Fiesta Diesel            	EDMD      	 56.77	  FULLFULL
+GOLDCAR   	Citroen DS3                   	ESMR      	 60.00	  FULLFULL
+FLIZZR    	Citroen DS3                   	ESMR      	 61.44	  FULLFULL
+GOLDCAR   	Citroen DS3                   	ESMR      	 63.69	 FULLEMPTY
+MARBESOL  	Volkswagen Polo               	EDMM      	 70.89	  FULLFULL
+MARBESOL  	Volkswagen Polo               	EDMR      	 70.89	  FULLFULL
+MARBESOL  	Ford Fiesta Diesel            	EDMD      	 73.78	  FULLFULL
+FLIZZR    	Citroen C3 Picasso            	EMMV      	 75.93	 FULLEMPTY
+FLIZZR    	Peugeot 2008                  	EGMR      	 78.43	 FULLEMPTY
+MARBESOL  	Renault Clio Estate           	EWMR      	 82.37	  FULLFULL
+FLIZZR    	Citroen C3 Picasso            	EMMV      	 87.73	  FULLFULL
+FLIZZR    	Peugeot 2008                  	EGMR      	 90.23	  FULLFULL
+MARBESOL  	Toyota Yaris                  	EDAR      	 91.44	  FULLFULL
+RHODIUM   	Volkswagen Polo               	EDMR      	 92.90	  FULLFULL
+RHODIUM   	Citroen DS3                   	ESMR      	116.51	  FULLFULL
+MARBESOL  	Volkswagen Golf               	CDMR      	  8.05	 FULLEMPTY
+MARBESOL  	Volkswagen Golf Diesel        	CDMD      	  8.86	 FULLEMPTY
+MARBESOL  	Citroen Berlingo              	CMMV      	 10.53	 FULLEMPTY
+MARBESOL  	Mercedes Citan                	CMMD      	 10.53	 FULLEMPTY
+DELPASO   	Volkswagen Golf               	CDMR      	 11.49	 FULLEMPTY
+MARBESOL  	Ford Focus Estate             	CWMR      	 16.11	 FULLEMPTY
+NIZA      	Volkswagen Golf               	CDMR      	 18.07	 FULLEMPTY
+NIZA      	Ford C-Max Diesel             	CMMD      	 22.04	 FULLEMPTY
+MARBESOL  	Volkswagen Golf               	CDAR      	 25.24	 FULLEMPTY
+RECORD    	Volkswagen Golf               	CDMR      	 26.52	 FULLEMPTY
+CENTAURO  	Volkswagen Golf               	CDMR      	 26.96	 FULLEMPTY
+RECORD    	Nissan Juke                   	CFMR      	 28.64	 FULLEMPTY
+DELPASO   	Ford Focus Estate             	CWMR      	 31.35	 FULLEMPTY
+NIZA      	Volkswagen Golf               	CDMR      	 33.06	  FULLFULL
+CENTAURO  	Citroen Berlingo              	CMMV      	 33.15	 FULLEMPTY
+RECORD    	Citroen Berlingo              	CMMV      	 33.26	 FULLEMPTY
+GOLDCAR   	Volkswagen Golf               	CDMR      	 39.79	 FULLEMPTY
+CENTAURO  	Volkswagen Golf Diesel        	CDMD      	 40.91	 FULLEMPTY
+NIZA      	Audi A3 Diesel                	CDMD      	 41.16	 FULLEMPTY
+NIZA      	Ford C-Max Diesel             	CMMD      	 43.98	  FULLFULL
+GOLDCAR   	Volkswagen Golf               	CDMR      	 49.58	  FULLFULL
+GOLDCAR   	Volkswagen Golf               	CLMR      	 52.02	 FULLEMPTY
+GOLDCAR   	Citroen Berlingo              	CMMV      	 53.89	 FULLEMPTY
+GOLDCAR   	Volkswagen Golf               	CLMR      	 54.13	  FULLFULL
+CENTAURO  	Volkswagen Golf               	CDMR      	 58.77	  FULLFULL
+CENTAURO  	Ford Focus Estate             	CWMR      	 59.12	 FULLEMPTY
+MARBESOL  	Renault Megane Convertible    	CTMR      	 59.22	 FULLEMPTY
+NIZA      	Audi A3 Diesel                	CDMD      	 63.07	  FULLFULL
+CENTAURO  	Citroen Berlingo              	CMMV      	 65.15	  FULLFULL
+CENTAURO  	Ford Focus Estate Diesel      	CWMD      	 67.26	 FULLEMPTY
+CENTAURO  	Ford C-Max Diesel             	CMMD      	 69.20	 FULLEMPTY
+GOLDCAR   	Citroen Berlingo              	CMMV      	 70.83	  FULLFULL
+CENTAURO  	Volkswagen Golf Diesel        	CDMD      	 73.14	  FULLFULL
+MARBESOL  	Volkswagen Golf               	CDMR      	 75.14	  FULLFULL
+MARBESOL  	Volkswagen Golf Diesel        	CDMD      	 76.94	  FULLFULL
+MARBESOL  	Citroen Berlingo              	CMMV      	 78.06	  FULLFULL
+MARBESOL  	Mercedes Citan                	CMMD      	 78.06	  FULLFULL
+MARBESOL  	Ford Focus Estate             	CWMR      	 85.54	  FULLFULL
+FLIZZR    	Volkswagen Golf               	CDMR      	 87.91	 FULLEMPTY
+CENTAURO  	Ford Focus Estate             	CWMR      	 91.89	  FULLFULL
+CENTAURO  	Ford Focus Estate Diesel      	CWMD      	100.27	  FULLFULL
+FLIZZR    	Volkswagen Golf               	CDMR      	101.62	  FULLFULL
+CENTAURO  	Ford C-Max Diesel             	CMMD      	102.27	  FULLFULL
+RHODIUM   	Volkswagen Golf               	CDMR      	104.53	  FULLFULL
+MARBESOL  	Volkswagen Golf               	CDAR      	109.50	  FULLFULL
+RHODIUM   	Volkswagen Golf               	CLMR      	109.76	  FULLFULL
+FLIZZR    	Citroen Berlingo              	CMMV      	113.91	  FULLFULL
+GOLDCAR   	Ford Focus Estate             	CWMR      	114.01	  FULLFULL
+RHODIUM   	Citroen Berlingo              	CMMV      	114.01	  FULLFULL
+MARBESOL  	Citroen C4 Cactus             	CGAR      	114.03	  FULLFULL
+GOLDCAR   	Ford Focus Estate             	CWMR      	126.08	 FULLEMPTY
+GOLDCAR   	Nissan Juke                   	CFMR      	127.33	  FULLFULL
+GOLDCAR   	Nissan Juke                   	CFMR      	146.54	 FULLEMPTY
+RHODIUM   	Ford Focus Estate             	CWMR      	177.09	  FULLFULL
+MARBESOL  	Renault Megane Convertible    	CTMR      	204.47	  FULLFULL
+RHODIUM   	Volkswagen Golf               	CDAR      	243.55	  FULLFULL
+CENTAURO  	Nissan Juke Diesel            	HFMD      	 34.32	 FULLEMPTY
+MARBESOL  	Volkswagen Touran             	IVMR      	 35.64	 FULLEMPTY
+RECORD    	Toyota Rav4                   	IFMR      	 36.30	 FULLEMPTY
+MARBESOL  	Toyota Avensis                	IDMR      	 36.57	 FULLEMPTY
+MARBESOL  	Volkswagen Passat Diesel      	IDMD      	 38.15	 FULLEMPTY
+DELPASO   	Toyota Rav4                   	IFMR      	 41.16	 FULLEMPTY
+MARBESOL  	Volkswagen Passat             	SDAR      	 44.14	 FULLEMPTY
+MARBESOL  	Ford Galaxy                   	FVMR      	 45.07	 FULLEMPTY
+MARBESOL  	Nissan Qashqai                	IFMR      	 45.07	 FULLEMPTY
+MARBESOL  	BMW 3 Series                  	FDMR      	 47.55	 FULLEMPTY
+NIZA      	Volkswagen Touran Diesel      	IVMD      	 55.47	 FULLEMPTY
+CENTAURO  	Nissan Juke Diesel            	HFMD      	 66.35	  FULLFULL
+CENTAURO  	Volkswagen Touran             	IVMR      	 72.29	 FULLEMPTY
+MARBESOL  	BMW 3 Series                  	FDAR      	 74.03	 FULLEMPTY
+GOLDCAR   	Audi A3                       	ICMR      	 74.04	  FULLFULL
+FLIZZR    	Toyota Rav4                   	IFMR      	 75.93	 FULLEMPTY
+NIZA      	Volkswagen Touran Diesel      	IVMD      	 77.41	  FULLFULL
+CENTAURO  	Volkswagen Touran Diesel      	IVMD      	 80.43	 FULLEMPTY
+GOLDCAR   	Audi A3                       	ICMR      	 84.46	 FULLEMPTY
+MARBESOL  	Renault Scenic                	JGMR      	 86.44	  FULLFULL
+FLIZZR    	Toyota Rav4                   	IFMR      	 87.73	  FULLFULL
+MARBESOL  	Nissan Qashqai                	IFMR      	 88.27	  FULLFULL
+NIZA      	Renault Scenic Diesel         	JGAD      	 93.67	 FULLEMPTY
+MARBESOL  	Toyota Avensis                	IDMR      	 95.47	  FULLFULL
+GOLDCAR   	Toyota Avensis                	IDAR      	 97.31	  FULLFULL
+MARBESOL  	Volkswagen Passat Diesel      	IDMD      	 98.20	  FULLFULL
+CENTAURO  	Volkswagen Touran             	IVAR      	 99.80	 FULLEMPTY
+CENTAURO  	Volkswagen Touran             	IVMR      	105.45	  FULLFULL
+MARBESOL  	Mercedes Vito Traveliner      	SVMR      	108.04	 FULLEMPTY
+CENTAURO  	Volkswagen Touran Diesel      	IVMD      	113.83	  FULLFULL
+NIZA      	Renault Scenic Diesel         	JGAD      	115.58	  FULLFULL
+GOLDCAR   	Toyota Avensis                	IDAR      	116.68	 FULLEMPTY
+GOLDCAR   	Renault Scenic                	JGMR      	120.59	  FULLFULL
+DELPASO   	Mercedes Vito Traveliner      	SVMR      	121.26	 FULLEMPTY
+MARBESOL  	Volkswagen Passat             	SDAR      	123.09	  FULLFULL
+MARBESOL  	Volkswagen Passat Diesel      	IDAD      	127.59	  FULLFULL
+RHODIUM   	Audi A3                       	ICMR      	130.54	  FULLFULL
+CENTAURO  	Volkswagen Touran             	IVAR      	133.79	  FULLFULL
+GOLDCAR   	Renault Scenic                	JGMR      	139.95	 FULLEMPTY
+NIZA      	BMW 2 Series Gran Tourer Diesel	JVAD      	146.62	  FULLFULL
+CENTAURO  	Ford Galaxy Diesel            	FVMD      	148.23	 FULLEMPTY
+RHODIUM   	Toyota Avensis                	IDAR      	153.82	  FULLFULL
+RECORD    	Ford Galaxy                   	FVMR      	154.59	 FULLEMPTY
+FLIZZR    	Volkswagen Touran             	IVMR      	159.66	  FULLFULL
+RECORD    	Ford Galaxy                   	FVAR      	160.75	 FULLEMPTY
+CENTAURO  	Mercedes Vito Traveliner      	SVMR      	163.73	 FULLEMPTY
+MARBESOL  	Volkswagen Touran             	IVMR      	168.28	  FULLFULL
+MARBESOL  	BMW 1 Series                  	IDAR      	172.81	  FULLFULL
+RHODIUM   	Renault Scenic                	JGMR      	180.47	  FULLFULL
+CENTAURO  	Ford Galaxy Diesel            	FVMD      	183.66	  FULLFULL
+MARBESOL  	BMW 4 Series Convertible      	RTAV      	189.85	 FULLEMPTY
+MARBESOL  	BMW 3 Series                  	FDMR      	195.43	  FULLFULL
+CENTAURO  	Mercedes Vito Traveliner      	SVMR      	199.62	  FULLFULL
+MARBESOL  	BMW 3 Series                  	FDAR      	199.93	  FULLFULL
+MARBESOL  	Ford Galaxy                   	FVMR      	213.53	  FULLFULL
+MARBESOL  	Mercedes Vito Traveliner      	SVMR      	231.59	  FULLFULL
+GOLDCAR   	Toyota Avensis                	IDMR      	243.55	  FULLFULL
+RHODIUM   	Toyota Avensis                	IDMR      	300.05	  FULLFULL
+GOLDCAR   	Toyota Avensis                	IDMR      	301.95	 FULLEMPTY
+GOLDCAR   	Volkswagen Touran             	IVMR      	303.43	  FULLFULL
+GOLDCAR   	Citroen C4 Grand Picasso      	IVAR      	326.70	  FULLFULL
+GOLDCAR   	BMW 3 Series                  	FDAR      	353.17	  FULLFULL
+RHODIUM   	Volkswagen Touran             	IVMR      	359.93	  FULLFULL
+GOLDCAR   	Volkswagen Touran             	IVMR      	366.84	 FULLEMPTY
+RHODIUM   	Volkswagen Touran             	IVAR      	383.03	  FULLFULL
+GOLDCAR   	Citroen C4 Grand Picasso      	IVAR      	399.28	 FULLEMPTY
+RHODIUM   	BMW 3 Series                  	FDAR      	409.68	  FULLFULL
+GOLDCAR   	BMW 3 Series                  	FDAR      	436.43	 FULLEMPTY
+GOLDCAR   	Mercedes Vito Traveliner      	SVMR      	509.37	  FULLFULL
+RHODIUM   	Ford Galaxy                   	FVMR      	509.37	  FULLFULL
+MARBESOL  	BMW 4 Series Convertible      	RTAV      	516.52	  FULLFULL
+RHODIUM   	Mercedes Vito Traveliner      	SVMR      	565.88	  FULLFULL
+GOLDCAR   	Mercedes Vito Traveliner      	SVMR      	621.70	 FULLEMPTY
