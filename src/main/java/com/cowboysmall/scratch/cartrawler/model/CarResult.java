@@ -1,6 +1,6 @@
 package com.cowboysmall.scratch.cartrawler.model;
 
-import static com.cowboysmall.scratch.cartrawler.model.CorporateSuppliers.isCorporateSupplier;
+import static com.cowboysmall.scratch.cartrawler.model.Suppliers.isCorporateSupplier;
 import static java.lang.String.format;
 import static java.util.Objects.hash;
 

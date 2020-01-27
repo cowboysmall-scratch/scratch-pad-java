@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-public class CorporateSuppliers {
+public class Suppliers {
 
     private static final Set<String> CORPORATE_SUPPLIERS =
             Stream.of(
