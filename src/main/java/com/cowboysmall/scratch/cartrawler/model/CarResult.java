@@ -1,16 +1,11 @@
 package com.cowboysmall.scratch.cartrawler.model;
 
-import java.util.Objects;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import static com.cowboysmall.scratch.cartrawler.model.CorporateSuppliers.isCorporateSupplier;
+import static java.lang.String.format;
+import static java.util.Objects.hash;
 
 
 public class CarResult {
-
-    private static final Set<String> CORPORATE_SUPPLIERS =
-            Stream.of("AVIS", "BUDGET", "ENTERPRISE", "FIREFLY", "HERTZ", "SIXT", "THRIFTY")
-                    .collect(Collectors.toSet());
 
     private final String description;
     private final String supplierName;
@@ -19,6 +14,8 @@ public class CarResult {
     private final FuelPolicy fuelPolicy;
 
     private final double rentalCost;
+
+    private final Type type;
 
 
     //_________________________________________________________________________
@@ -30,6 +27,8 @@ public class CarResult {
         this.sippCode = sippCode;
         this.fuelPolicy = fuelPolicy;
         this.rentalCost = rentalCost;
+
+        this.type = Type.getType(sippCode.substring(0, 1));
     }
 
 
@@ -60,32 +59,37 @@ public class CarResult {
         return rentalCost;
     }
 
+    public Type getType() {
+
+        return type;
+    }
+
 
     //_________________________________________________________________________
 
     public boolean isCorporate() {
 
-        return CORPORATE_SUPPLIERS.contains(supplierName);
+        return isCorporateSupplier(supplierName);
     }
 
     public boolean isMini() {
 
-        return sippCode.startsWith("M");
+        return type == Type.MINI;
     }
 
     public boolean isEconomy() {
 
-        return sippCode.startsWith("E");
+        return type == Type.ECONOMY;
     }
 
     public boolean isCompact() {
 
-        return sippCode.startsWith("C");
+        return type == Type.COMPACT;
     }
 
     public boolean isOther() {
 
-        return !isMini() && !isEconomy() && !isCompact();
+        return type == Type.OTHER;
     }
 
     public boolean isFuelPolicyFullFull() {
@@ -117,7 +121,7 @@ public class CarResult {
     @Override
     public int hashCode() {
 
-        return Objects.hash(description, supplierName, sippCode, fuelPolicy);
+        return hash(description, supplierName, sippCode, fuelPolicy);
     }
 
 
@@ -125,7 +129,7 @@ public class CarResult {
 
     public String toString() {
 
-        return String.format(
+        return format(
                 "%-10s\t%-30s\t%-10s\t%6.2f\t%10s",
                 supplierName,
                 description,

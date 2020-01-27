@@ -1,12 +1,13 @@
 package com.cowboysmall.scratch.cartrawler.component;
 
 import com.cowboysmall.scratch.cartrawler.model.CarResult;
+import com.cowboysmall.scratch.cartrawler.model.Type;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.cowboysmall.scratch.cartrawler.util.Filters.not;
 import static com.cowboysmall.scratch.cartrawler.util.Statistics.calculateMedian;
 import static java.util.Comparator.comparingDouble;
 import static java.util.function.Function.identity;
@@ -42,46 +43,29 @@ public class CarResultProcessorImpl implements CarResultProcessor {
 
     private Stream<CarResult> partitionCarResults(List<CarResult> carResults) {
 
+        Map<Boolean, List<CarResult>> partitioned =
+                carResults.stream()
+                        .collect(Collectors.partitioningBy(CarResult::isCorporate));
+
         return Stream.concat(
 
-                partitionCarResultsByGroup(
-                        carResults.stream()
-                                .filter(CarResult::isCorporate)
-                                .collect(Collectors.toList())
-                ),
-                partitionCarResultsByGroup(
-                        carResults.stream()
-                                .filter(not(CarResult::isCorporate))
-                                .collect(Collectors.toList())
-                )
+                partitionCarResultsByGroup(partitioned.get(true)),
+                partitionCarResultsByGroup(partitioned.get(false))
         );
     }
 
     private Stream<CarResult> partitionCarResultsByGroup(List<CarResult> carResults) {
 
+        Map<Type, List<CarResult>> grouped =
+                carResults.stream()
+                        .collect(Collectors.groupingBy(CarResult::getType));
 
         return Stream.of(
 
-                sortCarResults(
-                        carResults.stream()
-                                .filter(CarResult::isMini)
-                                .collect(Collectors.toList())
-                ),
-                sortCarResults(
-                        carResults.stream()
-                                .filter(CarResult::isEconomy)
-                                .collect(Collectors.toList())
-                ),
-                sortCarResults(
-                        carResults.stream()
-                                .filter(CarResult::isCompact)
-                                .collect(Collectors.toList())
-                ),
-                sortCarResults(
-                        carResults.stream()
-                                .filter(CarResult::isOther)
-                                .collect(Collectors.toList())
-                )
+                sortCarResults(grouped.get(Type.MINI)),
+                sortCarResults(grouped.get(Type.ECONOMY)),
+                sortCarResults(grouped.get(Type.COMPACT)),
+                sortCarResults(grouped.get(Type.OTHER))
 
         ).flatMap(identity());
     }
