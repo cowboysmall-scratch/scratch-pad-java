@@ -5,12 +5,15 @@ import com.cowboysmall.scratch.cartrawler.model.Type;
 
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static com.cowboysmall.scratch.cartrawler.util.Statistics.calculateMedian;
+import static java.util.Collections.emptyList;
 import static java.util.Comparator.comparingDouble;
 import static java.util.function.Function.identity;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toList;
 
 
 public class CarResultProcessorImpl implements CarResultProcessor {
@@ -34,8 +37,8 @@ public class CarResultProcessorImpl implements CarResultProcessor {
         return partitionCarResults(
                 carResults.stream()
                         .distinct()
-                        .collect(Collectors.toList())
-        ).collect(Collectors.toList());
+                        .collect(toList())
+        ).collect(toList());
     }
 
 
@@ -45,7 +48,7 @@ public class CarResultProcessorImpl implements CarResultProcessor {
 
         Map<Boolean, List<CarResult>> partitioned =
                 carResults.stream()
-                        .collect(Collectors.partitioningBy(CarResult::isCorporate));
+                        .collect(partitioningBy(CarResult::isCorporate));
 
         return Stream.concat(
 
@@ -58,14 +61,14 @@ public class CarResultProcessorImpl implements CarResultProcessor {
 
         Map<Type, List<CarResult>> grouped =
                 carResults.stream()
-                        .collect(Collectors.groupingBy(CarResult::getType));
+                        .collect(groupingBy(CarResult::getType));
 
         return Stream.of(
 
-                sortCarResults(grouped.get(Type.MINI)),
-                sortCarResults(grouped.get(Type.ECONOMY)),
-                sortCarResults(grouped.get(Type.COMPACT)),
-                sortCarResults(grouped.get(Type.OTHER))
+                sortCarResults(grouped.getOrDefault(Type.MINI, emptyList())),
+                sortCarResults(grouped.getOrDefault(Type.ECONOMY, emptyList())),
+                sortCarResults(grouped.getOrDefault(Type.COMPACT, emptyList())),
+                sortCarResults(grouped.getOrDefault(Type.OTHER, emptyList()))
 
         ).flatMap(identity());
     }
@@ -79,9 +82,9 @@ public class CarResultProcessorImpl implements CarResultProcessor {
 
         if (filterMedian) {
 
-            List<CarResult> sortedList = sorted.collect(Collectors.toList());
-            double median = calculateMedianRentalCost(sortedList);
+            List<CarResult> sortedList = sorted.collect(toList());
 
+            double median = calculateMedianRentalCost(sortedList);
             return sortedList.stream()
                     .filter(carResult -> isBelowMedian(carResult, median));
 
@@ -99,7 +102,7 @@ public class CarResultProcessorImpl implements CarResultProcessor {
         return calculateMedian(
                 carResults.stream()
                         .map(CarResult::getRentalCost)
-                        .collect(Collectors.toList())
+                        .collect(toList())
         );
     }
 

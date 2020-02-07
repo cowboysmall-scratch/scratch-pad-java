@@ -4,7 +4,6 @@ import com.cowboysmall.scratch.cartrawler.model.CarResult;
 import com.cowboysmall.scratch.cartrawler.model.FuelPolicy;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -37,22 +36,40 @@ public class CarResultProcessorTest {
 
 
     @Test
+    public void testCarResultProcessor_ProcessCarResults_Simple() {
+
+        List<CarResult> carResults =
+                new CarResultProcessorImpl(false)
+                        .processCarResults(
+                                asList(
+                                        CAR_RESULT_01,
+                                        CAR_RESULT_05
+                                )
+                        );
+
+        assertThat(carResults.size(), is(2));
+
+        assertThat(carResults.get(0).isCorporate(), is(true));
+        assertThat(carResults.get(1).isCorporate(), is(false));
+    }
+
+    @Test
     public void testCarResultProcessor_ProcessCarResults_Partitioning_Corporate() {
 
-        List<CarResult> list = new ArrayList<>(
-                asList(
-                        CAR_RESULT_01,
-                        CAR_RESULT_02,
-                        CAR_RESULT_03,
-                        CAR_RESULT_04,
-                        CAR_RESULT_05,
-                        CAR_RESULT_06,
-                        CAR_RESULT_07,
-                        CAR_RESULT_08
-                )
-        );
-
-        List<CarResult> carResults = new CarResultProcessorImpl(false).processCarResults(list);
+        List<CarResult> carResults =
+                new CarResultProcessorImpl(false)
+                        .processCarResults(
+                                asList(
+                                        CAR_RESULT_01,
+                                        CAR_RESULT_02,
+                                        CAR_RESULT_03,
+                                        CAR_RESULT_04,
+                                        CAR_RESULT_05,
+                                        CAR_RESULT_06,
+                                        CAR_RESULT_07,
+                                        CAR_RESULT_08
+                                )
+                        );
 
         assertThat(carResults.size(), is(8));
 
@@ -70,20 +87,20 @@ public class CarResultProcessorTest {
     @Test
     public void testCarResultProcessor_ProcessCarResults_Partitioning_SIPP() {
 
-        List<CarResult> list = new ArrayList<>(
-                asList(
-                        CAR_RESULT_01,
-                        CAR_RESULT_02,
-                        CAR_RESULT_03,
-                        CAR_RESULT_04,
-                        CAR_RESULT_05,
-                        CAR_RESULT_06,
-                        CAR_RESULT_07,
-                        CAR_RESULT_08
-                )
-        );
-
-        List<CarResult> carResults = new CarResultProcessorImpl(false).processCarResults(list);
+        List<CarResult> carResults =
+                new CarResultProcessorImpl(false)
+                        .processCarResults(
+                                asList(
+                                        CAR_RESULT_01,
+                                        CAR_RESULT_02,
+                                        CAR_RESULT_03,
+                                        CAR_RESULT_04,
+                                        CAR_RESULT_05,
+                                        CAR_RESULT_06,
+                                        CAR_RESULT_07,
+                                        CAR_RESULT_08
+                                )
+                        );
 
         assertThat(carResults.size(), is(8));
 
@@ -101,22 +118,22 @@ public class CarResultProcessorTest {
     @Test
     public void testCarResultProcessor_ProcessCarResults_NoMedian() {
 
-        List<CarResult> list = new ArrayList<>(
-                asList(
-                        CAR_RESULT_01,
-                        CAR_RESULT_02,
-                        CAR_RESULT_03,
-                        CAR_RESULT_04,
-                        CAR_RESULT_05,
-                        CAR_RESULT_06,
-                        CAR_RESULT_07,
-                        CAR_RESULT_08,
-                        CAR_RESULT_09,
-                        CAR_RESULT_10
-                )
-        );
-
-        List<CarResult> carResults = new CarResultProcessorImpl(false).processCarResults(list);
+        List<CarResult> carResults =
+                new CarResultProcessorImpl(false)
+                        .processCarResults(
+                                asList(
+                                        CAR_RESULT_01,
+                                        CAR_RESULT_02,
+                                        CAR_RESULT_03,
+                                        CAR_RESULT_04,
+                                        CAR_RESULT_05,
+                                        CAR_RESULT_06,
+                                        CAR_RESULT_07,
+                                        CAR_RESULT_08,
+                                        CAR_RESULT_09,
+                                        CAR_RESULT_10
+                                )
+                        );
 
         assertThat(carResults.size(), is(10));
 
@@ -136,22 +153,22 @@ public class CarResultProcessorTest {
     @Test
     public void testCarResultProcessor_ProcessCarResults_Median() {
 
-        List<CarResult> list = new ArrayList<>(
-                asList(
-                        CAR_RESULT_01,
-                        CAR_RESULT_02,
-                        CAR_RESULT_03,
-                        CAR_RESULT_04,
-                        CAR_RESULT_05,
-                        CAR_RESULT_06,
-                        CAR_RESULT_07,
-                        CAR_RESULT_08,
-                        CAR_RESULT_09,
-                        CAR_RESULT_10
-                )
-        );
-
-        List<CarResult> carResults = new CarResultProcessorImpl(true).processCarResults(list);
+        List<CarResult> carResults =
+                new CarResultProcessorImpl(true)
+                        .processCarResults(
+                                asList(
+                                        CAR_RESULT_01,
+                                        CAR_RESULT_02,
+                                        CAR_RESULT_03,
+                                        CAR_RESULT_04,
+                                        CAR_RESULT_05,
+                                        CAR_RESULT_06,
+                                        CAR_RESULT_07,
+                                        CAR_RESULT_08,
+                                        CAR_RESULT_09,
+                                        CAR_RESULT_10
+                                )
+                        );
 
         assertThat(carResults.size(), is(9));
 

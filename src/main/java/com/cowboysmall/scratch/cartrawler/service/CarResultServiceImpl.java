@@ -29,12 +29,8 @@ public class CarResultServiceImpl implements CarResultService {
     @Override
     public List<CarResult> getAllCarResults() {
 
-        List<CarResult> carResults = carResultRepository.getAllCarResults();
-
         return carResultProcessor.processCarResults(
-                carResults.stream()
-                        .distinct()
-                        .collect(Collectors.toList())
+                carResultRepository.getAllCarResults()
         );
     }
 }
