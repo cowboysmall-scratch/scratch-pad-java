@@ -15,7 +15,7 @@ public enum Type {
 
     //_________________________________________________________________________
 
-    public static Type getType(String code) {
+    public static Type getTypeForCode(String code) {
 
         for (Type type : Type.values())
             if (type.code.equalsIgnoreCase(code))

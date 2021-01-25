@@ -2,6 +2,7 @@ package com.cowboysmall.scratch.cartrawler.util;
 
 import java.util.List;
 
+
 public class Statistics {
 
     public static double calculateMedian(List<Double> doubleList) {

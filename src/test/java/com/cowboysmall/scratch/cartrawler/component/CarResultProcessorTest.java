@@ -10,6 +10,7 @@ import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+
 public class CarResultProcessorTest {
 
     public static final CarResult CAR_RESULT_01 =

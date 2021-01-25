@@ -5,7 +5,6 @@ import com.cowboysmall.scratch.cartrawler.model.CarResult;
 import com.cowboysmall.scratch.cartrawler.repository.CarResultRepository;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 
 public class CarResultServiceImpl implements CarResultService {

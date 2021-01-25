@@ -1,6 +1,13 @@
 package com.cowboysmall.scratch.cartrawler.model;
 
+import static com.cowboysmall.scratch.cartrawler.model.FuelPolicy.FULLEMPTY;
+import static com.cowboysmall.scratch.cartrawler.model.FuelPolicy.FULLFULL;
 import static com.cowboysmall.scratch.cartrawler.model.Suppliers.isCorporateSupplier;
+import static com.cowboysmall.scratch.cartrawler.model.Type.COMPACT;
+import static com.cowboysmall.scratch.cartrawler.model.Type.ECONOMY;
+import static com.cowboysmall.scratch.cartrawler.model.Type.MINI;
+import static com.cowboysmall.scratch.cartrawler.model.Type.OTHER;
+import static com.cowboysmall.scratch.cartrawler.model.Type.getTypeForCode;
 import static java.lang.String.format;
 import static java.util.Objects.hash;
 
@@ -28,7 +35,7 @@ public class CarResult {
         this.fuelPolicy = fuelPolicy;
         this.rentalCost = rentalCost;
 
-        this.type = Type.getType(sippCode.substring(0, 1));
+        this.type = getTypeForCode(sippCode.substring(0, 1));
     }
 
 
@@ -74,32 +81,32 @@ public class CarResult {
 
     public boolean isMini() {
 
-        return type == Type.MINI;
+        return type == MINI;
     }
 
     public boolean isEconomy() {
 
-        return type == Type.ECONOMY;
+        return type == ECONOMY;
     }
 
     public boolean isCompact() {
 
-        return type == Type.COMPACT;
+        return type == COMPACT;
     }
 
     public boolean isOther() {
 
-        return type == Type.OTHER;
+        return type == OTHER;
     }
 
     public boolean isFuelPolicyFullFull() {
 
-        return fuelPolicy == FuelPolicy.FULLFULL;
+        return fuelPolicy == FULLFULL;
     }
 
     public boolean isFuelPolicyFullEmpty() {
 
-        return fuelPolicy == FuelPolicy.FULLEMPTY;
+        return fuelPolicy == FULLEMPTY;
     }
 
 

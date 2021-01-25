@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+
 public class CarResultTest {
 
     public static final CarResult CAR_RESULT_1 =
