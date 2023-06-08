@@ -6,6 +6,7 @@ import com.cowboysmall.scratch.util.InterleavedIterator;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 public class Application {
 
@@ -19,7 +20,7 @@ public class Application {
                 new InterleavedIterator<>(
                         Arrays.asList("a", "b", "c", "d").iterator(),
                         Collections.emptyIterator(),
-                        Arrays.asList("foo", "bar").iterator()
+                        List.of("foo", "bar").iterator()
                 );
 
         while (iterator.hasNext())
