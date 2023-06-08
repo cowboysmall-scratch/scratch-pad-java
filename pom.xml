@@ -6,13 +6,13 @@
 
 
     <groupId>com.cowboysmall.scratch</groupId>
-    <artifactId>scratch-pad</artifactId>
+    <artifactId>scratch-pad-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
 
-    <name>scratch-pad</name>
-    <description>Scratch Pad</description>
-    <url>https://github.com/cowboysmall-scratch/scratch-pad</url>
+    <name>scratch-pad-java</name>
+    <description>Scratch Pad - Java</description>
+    <url>https://github.com/cowboysmall-scratch/scratch-pad-java</url>
 
 
     <properties>

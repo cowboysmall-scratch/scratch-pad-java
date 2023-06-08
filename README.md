@@ -1,2 +1,2 @@
-# Scratch Pad
-a scratch pad for sharing stuff
+# Scratch Pad - Java
+a scratch pad for sharing Java stuff
