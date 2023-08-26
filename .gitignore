@@ -8,6 +8,8 @@ build
 *.iml
 *.ipr
 
+.vscode
+
 **/*.log
 **/*.zip
 **/*.versionsBackup
