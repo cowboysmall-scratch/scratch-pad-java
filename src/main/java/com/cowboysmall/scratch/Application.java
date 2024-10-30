@@ -14,7 +14,7 @@ public class Application {
 
         System.out.println(">>> Hello, World!");
 
-        System.out.println(">>> \"vmxibkgrlm\" - > " + EncDec.decode("vmxibkgrlm"));
+        System.out.printf(">>> \"vmxibkgrlm\" -> \"%s\"%n", EncDec.decode("vmxibkgrlm"));
 
         Iterator<String> iterator =
                 new InterleavedIterator<>(
